@@ -1,0 +1,44 @@
+.banner-container{
+    color: white;
+    object-fit: contain;
+    height: 448px;
+}
+
+.banner-content{
+    margin-left: 30pc;
+    padding-top: 140px;
+    height: 190px;
+}
+
+.banner-title{
+    font-size: 3rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+}
+
+.baner-description{
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+
+.banner-button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding: 0.5rem 2rem;
+    margin-left: 2rem;
+    background-color: rgba(51, 51, 51, 0.5);
+}
+
+.banner-button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    padding-bottom: 0.2s;
+}

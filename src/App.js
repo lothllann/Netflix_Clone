@@ -1,6 +1,7 @@
 
 import categories from './api';
 import './App.css';
+import Banner from './components/Banner';
 import Row from './components/Row';
 
 function App() {
@@ -8,9 +9,15 @@ function App() {
     <div className="App">
       {/* NavBar */}
       {/* destaque */}
-      {/* em alta */}
+      <Banner />
+      
       {categories.map((category) => {
-        return <Row key={category.name} title={category.title} path={category.path}/>
+        return <Row
+          key={category.name}
+          title={category.title}
+          path={category.path}
+          isLarge={category.isLarge}
+          />
       })}
 
     </div>
