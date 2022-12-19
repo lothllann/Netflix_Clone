@@ -1,5 +1,5 @@
 import React from 'react'
-import { getMovies } from '../api'
+import { getMovies } from '../../api'
 import './Row.css'
 
 const imageHost = "https://image.tmdb.org/t/p/original";

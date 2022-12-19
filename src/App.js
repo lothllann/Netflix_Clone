@@ -1,16 +1,15 @@
 
 import categories from './api';
 import './App.css';
-import Banner from './components/Banner';
-import Row from './components/Row';
+import Banner from './components/Banner/Banner.js';
+import Nav from './components/Nav/Nav';
+import Row from './components/Row/Row.js';
 
 function App() {
   return (
     <div className="App">
-      {/* NavBar */}
-      {/* destaque */}
-      <Banner />
-      
+      <Nav />
+      <Banner />     
       {categories.map((category) => {
         return <Row
           key={category.name}
