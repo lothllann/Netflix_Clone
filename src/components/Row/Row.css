@@ -20,6 +20,7 @@
     max-height: 150px;
     margin-bottom: 10px;
     transition: transform 450ms ease-in-out;
+    cursor: pointer;
 }
 
 .movie-card-large{
